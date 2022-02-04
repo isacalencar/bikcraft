@@ -3,6 +3,7 @@
     background-color: black;
     color: #ffffff;
     max-width: 1400px;
+    box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;

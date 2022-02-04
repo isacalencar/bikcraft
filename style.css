@@ -2,6 +2,9 @@
 @import './global/header.css';
 @import './home/introduçao.css';
 @import './utilitarios/componentes.css';
+@import './bicicleta/bicicletas.css';
+@import './home/tecnologia.css';
+@import './home/parceiros.css';
 /*         Home             */
 @import '../home/introduçao.css';
 /*           utilitario              */

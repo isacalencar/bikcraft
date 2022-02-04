@@ -1,6 +1,7 @@
 
 .header-bg {
     background-color: black;
+  
 }
 .header {
     background-color: black;
@@ -8,12 +9,13 @@
     flex-wrap:wrap;
     gap:20px;
     justify-content: space-between;
-    block-size: border-box;
     align-items: center;
-    padding: 20px;
     max-width: 1200px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right:auto ;
     margin-left: auto;
-    margin-right: auto;
 }
 .header-menu {
     display: flex;
