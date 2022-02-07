@@ -1,12 +1,16 @@
 @import './global/globo.css';
 @import './global/header.css';
 @import './home/introduçao.css';
-@import './utilitarios/componentes.css';
 @import './bicicleta/bicicletas.css';
 @import './home/tecnologia.css';
 @import './home/parceiros.css';
+@import'./utilitarios/tipografia.css';
+@import './utilitarios/cor.css';
+@import './home/depoimento.css';
+@import './home/seguros.css';
+@import './global/footer.css';
+@import './termos/condições.css';
 /*         Home             */
 @import '../home/introduçao.css';
 /*           utilitario              */
-@import './utilitarios/cor.css';
-@import'./utilitarios/tipografia.css';
+@import './utilitarios/componentes.css';

@@ -9,6 +9,8 @@
     --cor-35:#717171;
     --cor-40:#595959;
     --cor-45:#404040;
+    --cor-50:rgb(26, 26, 26);
+    --cor-55:black;
     
   
     --cor-p1:#ffbb00 ;
@@ -58,7 +60,12 @@
     color:var( --cor-45);
 
 }
-
+.cor-50 {
+    color: var(--cor-50)
+}
+.cor-55 {
+   color:var(--cor-55)
+}
 
 
 
