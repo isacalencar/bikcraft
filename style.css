@@ -10,6 +10,11 @@
 @import './home/seguros.css';
 @import './global/footer.css';
 @import './termos/condições.css';
+@import './bicicleta/compra-bicicleta.css';
+@import './seguros/seguros.css';
+@import './seguros/perguntas.css';
+@import './seguros/vantanges.css';
+
 /*         Home             */
 @import '../home/introduçao.css';
 /*           utilitario              */
