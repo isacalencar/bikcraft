@@ -1,7 +1,7 @@
 @import './global/globo.css';
 @import './global/header.css';
 @import './home/introduçao.css';
-@import './bicicleta/bicicletas.css';
+@import './bicicleta-do-css/bicicletasdocss.css';
 @import './home/tecnologia.css';
 @import './home/parceiros.css';
 @import'./utilitarios/tipografia.css';
@@ -10,7 +10,7 @@
 @import './home/seguros.css';
 @import './global/footer.css';
 @import './termos/condições.css';
-@import './bicicleta/compra-bicicleta.css';
+@import './bicicleta-do-css/compra-bicicleta.css';
 @import './seguros/seguros.css';
 @import './seguros/perguntas.css';
 @import './seguros/vantanges.css';
