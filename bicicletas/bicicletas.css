@@ -7,6 +7,10 @@
   padding-bottom: 60px;
   background:var(--cor-50);
 }
+.bicicletas-container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
 .bicicletas-imagens {
   display: flex;
@@ -24,6 +28,7 @@
 }
 .bicicletas-conteudos p {
     margin-bottom:32px;
+
 }
 .bicicletas-compras {
  display: grid;
@@ -50,6 +55,18 @@
 .bicicletas-informacoes ,
 .bicicletas-fichas {
  background-color:black;
-
+ background-size:contain;
+ padding:32px;
+ margin-bottom: 16px;
  border-radius: 4px;
 }
+@media (max-width:400px) {
+ .bicicletas-container {
+   grid-template-columns: 1fr;
+   }
+
+   .bicicletas-comprar {
+     grid-template-columns: 1fr;
+   }
+   
+ }
