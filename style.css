@@ -14,6 +14,7 @@
 @import './seguros/seguros.css';
 @import './seguros/perguntas.css';
 @import './seguros/vantanges.css';
+@import './bicicletas/bicicletas.css';
 
 /*         Home             */
 @import '../home/introduçao.css';
