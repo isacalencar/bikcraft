@@ -8,8 +8,8 @@
   background:var(--cor-50);
 }
 .bicicletas-container {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .bicicletas-imagens {
@@ -28,6 +28,7 @@
 }
 .bicicletas-conteudos p {
     margin-bottom:32px;
+    
 
 }
 .bicicletas-compras {
