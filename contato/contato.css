@@ -1,21 +1,20 @@
 #contato {
-    background-color:linear-gradient(var(--cor-0) 600px , var(-cor-5) 0px)
+    background-color:linear-gradient(var(-cor-0) 600px,var(-cor-5) 0px)
 }
 .contato-container  {
     display: grid;
     grid-template-columns: 5fr 7fr;
     margin-left: 120px;
     margin-right: 120px;
+    padding: 10px;
+    gap: 120px;
 }
 
-.contato-formulario , .dados-endereco {
-    padding: 60px;
-    box-shadow: 0 1px 2px rgb(0, 0, 0 , 0.1);
-    margin-bottom: 200px;
 
-}
+
 
 .contato-formulario {
+    
     border-radius: 0 5px 5px 0;
 }
 
@@ -74,12 +73,12 @@
 @media (max-width:800px){
     .contato-container {
       grid-template-columns: 1fr;
-      margin-left: 0px;
-      margin-right: 0px;
+      margin-left: 20px;
+      margin-right: 20px;
       
 
     }
-    .contato-formulario {
+    .contato-formulario { 
         justify-items: center;
         justify-content: start;
     }

@@ -25,7 +25,7 @@
       </nav> 
     </div>
   </header>
-   <div class="contato-container">
+    <main class="contato-container">
       <div class="dados-endereco">
        <section aria-label="Endereco">
 
@@ -52,22 +52,60 @@
       
         <form class="form" action="./contato.html">
           <div>
-           <label for="telefone">telefone<br></label>
+            <label for="Nome">Nome</label>
+            <input type="text" id="Nome">
+          </div>
+          <div>
+           <label for="telefone">telefone</label>
            <input type="text" id="telefone" placeholder="88 9999-9999">
           </div>
-          <div>
-            <label for="email">email<br></label>
+          <div class="col-2">
+            <label for="email">email</label>
             <input type="email" id="email" placeholder="wqqwq@ffdfd.com">
           </div>
-          <div>
-            <label for="menssagem">menssagem<br></label>
-            <textarea rows="5" type="text" id="menssagem" placeholder="oque vc precisa?"></textarea>
+          <div class="col-2">
+            <label for="menssagem">menssagem</label>
+            <textarea rows="5" type="text" id="menssagem" placeholder="oque vc precisa" ></textarea>
           </div>
-          <button class="botao">Enviar Menssagem</button>
+          <button class="botao col-2">Enviar Menssagem</button>
         </form> 
      
       </section>
-   </div>
+    </main>
+    <article class="loja-container">
+      <h2 class="font-1-xxl">lojas locais<span class="cor-p1">.</span></h2>
+      <div class="loja-itens">
+        <div>
+          <img src="./img/lojas/rj.jpg" alt="mapa marcado o endereço na rua x y z">
+          <div class="loja-dados font-2-s cor-40">
+            <p>Rua Ali Perto,25</p>
+            <p>Rio de Janeiro</p>
+          </div>
+          <div class="loja-dados font-2-s cor-40">
+            <a href="mailto:suporte@bickcraft.com">suporte@bickcraft.com"</a>
+            <a href="(88) 99233-1234">(88) 99233-1234</a>
+          </div>
+          <div>
+            <p><img src="./img/icones/horario.svg">08-16hrs seg a dom</p>
+          </div>
+        </div> 
+        <div>
+          <img src="./img/lojas/sp.jpg" alt="mapa marcado o endereço na rua x y z">
+         <div class="loja-dados-int font-2-s cor-40">
+           <p>Rua Ali Perto,25</p>
+           <p>São Paulo SP</p>
+         </div>
+         <div class="loja-dados font-2-s cor-40">
+           <a href="mailto:suporte@bickcraft.com">suporte@bickcraft.com"</a>
+           <a href="(88) 99233-1234">(88) 99233-1234</a>
+         </div>
+         <div>
+            <p><img src="./img/icones/horario.svg">08-16hrs seg a dom</p>
+         </div>
+        <div>
+      </div>
+
+    </article>
   <footer class="footer-bg">
     <div>
      <img  class="footer-logo" src="./img/bikcraft.svg" alt="" srcset="">

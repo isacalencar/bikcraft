@@ -35,6 +35,8 @@
         line-height:1.33 ;
         font-family:'poppins' ;
         font-weight:600;
+        border: none;
+        cursor: pointer;
     }
     .seta {
         display: flex;
