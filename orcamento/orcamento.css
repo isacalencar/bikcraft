@@ -1,0 +1,25 @@
+#orcamento {
+    background: linear-gradient( var(--cor-50) 600px ,var(--cor-5) 0px );
+}
+
+.orcamento {
+    background:linear-gradient( var(--cor-50) 600px ,var(--cor-5) 0px );
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    padding-bottom: 120px;
+}
+.orcamento h2 {
+    text-transform: uppercase;
+    position: relative;
+    display:flex;
+    align-items: center;
+}
+.orcamento h2::before {
+    content:"";
+    display: inline-block;
+    width: 4px;
+    height:8px;
+    background-color: var(--cor-p1);
+    position: absolute;
+    left:-12px;
+}
