@@ -33,44 +33,70 @@
         <h1 class="font-1-xxl cor-25">solicite um orçamento <span class="cor-p1">.</span></h1>
       </div>
    </div>
-   <div>
-    <form class="orcamento container" action="./">
-      <h2 class="font-1-xs cor-25">bickcraft ou Seguro ?</h2>
-      <div  class="orcamento-produto">
+   
+    <form class="orcamento" >
 
-        <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
-        <label for="bikcraft">Bickcraft</label>
+        <div  class="orcamento-produto">
+         <h2 class="font-1-xs cor-25">bickcraft ou Seguro ?</h2>
+
+         <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
+         <label for="bikcraft">Bickcraft</label>
      
-        <input type="radio" name="tipo" value="seguro" id="seguro">
-        <label for="seguro">Seguro</label>
+         <input type="radio" name="tipo" value="seguro" id="seguro">
+         <label for="seguro">Seguro</label>
       
-        <div class="orcamento-conteudo" id="orcamento-bikcraft">
-          <h2 class="font-1-xs cor-25">Escolha a sua</h2>
+          <div class="orcamento-conteudo" id="orcamento-bikcraft">
+           <h2 class="font-1-xs cor-25">Escolha a sua</h2>
 
-          <input type="radio" name="tipo" value="ninbus" id="ninbus">
-          <label for="ninbus">ninbus<span>R$4,999</span></label>
-
-          <input type="radio" name="tipo" value="magic" id="magic">
-          <label for="magic">magic<span>R$2,999</span></label>
-
-          <input type="radio" name="tipo" value="nebular" id="nebular">
-          <label for="nebular">nebular<span>R$3,999</span></label>
-
-
-        </div>
-        <div class="orcamento-conteudo" id="orcamento-seguro">
-          <h2 class="font-1-l cor-0">escolha o plano:</h2>
-          <input type="radio" name="tipo" value="Ouro" id="Ouro">
-          <label for="Ouro">Ouro<span>R$399</span></label>
+           <input type="radio" name="tipo" value="ninbus" id="ninbus">
+           <label for="ninbus">ninbus<span>R$4,999</span></label>
+              <div class="orcamento-detalhes">
+                 <ul class="font-1-xs cor-45">
+                   <li><img src="./img/icones/eletrica.svg">motor eletrica</li>
+                   <li><img src="./img/icones/carbono.svg">fibra de carbono</li>
+                   <li><img src="./img/icones/velocidade.svg">velocidade</li>
+                   <li><img src="./img/icones/rastreador.svg">rastreador</li>
+                 </ul>
+                 <img src="./img/bicicletas/nimbus.jpg">
+              </div>
+            
+           <input type="radio" name="tipo" value="magic" id="magic">
+           <label for="magic">magic<span>R$2,999</span></label>
+           <div class="orcamento-detalhes">
+              <ul class="font-1-xs cor-45">
+                <li><img src="./img/icones/eletrica.svg">motor eletrica</li>
+                <li><img src="./img/icones/carbono.svg">fibra de carbono</li>
+                <li><img src="./img/icones/velocidade.svg">velocidade</li>
+                <li><img src="./img/icones/rastreador.svg">rastreador</li>
+              </ul>
+              <img src="./img/bicicletas/magic.jpg">
+            </div>
+      
+           <input type="radio" name="tipo" value="nebular" id="nebular">
+           <label for="nebular">nebular<span>R$3,999</span></label>
+            <div class="orcamento-detalhes">
+                <ul class="font-1-xs cor-45">
+                 <li><img src="./img/icones/eletrica.svg">motor eletrica</li>
+                 <li><img src="./img/icones/carbono.svg">fibra de carbono</li>
+                 <li><img src="./img/icones/velocidade.svg">velocidade</li>
+                 <li><img src="./img/icones/rastreador.svg">rastreador</li>
+                </ul>
+                <img src="./img/bicicletas/nebula.jpg">
+            </div>
+           
+      
+           <div class="orcamento-conteudo" id="orcamento-seguro">
+           <h2 class="font-1-xs cor-0">escolha o plano:</h2>
+           <input type="radio" name="tipo" value="Ouro" id="Ouro">
+           <label for="Ouro">Ouro<span>R$399</span></label>
  
-          <input type="radio" name="tipo" value="Prata" id="Prata">
-          <label for="Prata">Prata<span>R$199</span></label>
+           <input type="radio" name="tipo" value="Prata" id="Prata">
+           <label for="Prata">Prata<span>R$199</span></label>
 
-
-        
+          </div> 
+        </div> 
         </div>
-      </div>
-
+   
       <div class="orcamento-dados form">
 
        <h2 class="font-1-xs cor-35 col-2">dados pessoais</h2>
@@ -87,8 +113,8 @@
           <input type="text"
           name="cpf" id="cpf" placeholder="000.000.000-00">
         </div>
-        <div>
-          <label class="col-2" for="email">Email</label>
+        <div class="col-2" >
+          <label for="email">Email</label>
           <input type="email" name="email" id="email">
         </div>
 
@@ -118,11 +144,10 @@
            <label for="estado">Estado</label>
            <input type="text" name="estado" id="estado">
         </div>
-      </div>
-
+        <button class="botao">solicite o orçamento</button>
       </div>
     </form>
-   </div>
+   
   </main>
 
   <footer class="footer-bg">
