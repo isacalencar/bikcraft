@@ -33,17 +33,20 @@ parametros.forEach(ativarPRODUTO)
 
 const perguntas = document.querySelectorAll(".perguntas-container button")
 
-console.log(perguntas)
+//console.log(perguntas)
 
 
 function ativarPergunta(event){
     const pergunta = event.currentTarget
-    const controls = pergunta.getAttribute('arial-controls')
+    const controls = pergunta.getAttribute('aria-controls')
+    console.log(controls)
     const res = document.getElementById(controls)
-
-
+    console.log(res)
+    
     res.classList.toggle("ativa")
-    console.log('res')
+    const ativa =res.classList.contains("ativa")
+    pergunta.setAttribute('aria-expanded' , ativa )
+    console.log(pergunta)
 }
 
 function eventosPerguntas(pergunta) {
@@ -51,4 +54,25 @@ function eventosPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventosPerguntas)
+
+//galeria de bicicletas 
+
+const galeria = document.querySelector('.bicicletas-imagens img')
+const galeriaContainer = document.querySelector('.bicicletas-imagens')
+ 
+function trocarIMAGEM(event){
+    
+    const img = event.currentTarget 
+    console.log(img)
+    
+}
+
+function eventosGALERIA(img){
+   img.addEventListener('click' , trocarIMAGEM)
+    
+    
+}
+
+galeria.forEach(eventosGALERIA)
+console.log(galeria , galeriaContainer)
 
