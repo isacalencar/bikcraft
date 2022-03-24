@@ -20,8 +20,9 @@
 @import './contato/loja.css';
 @import './utilitarios/formulario.css';
 @import './orcamento/orcamento.css';
+@import './utilitarios/animaçao.css';
 
 /*         Home             */
-@import '../home/introduçao.css';
+@import './home/introduçao.css';
 /*           utilitario              */
 @import './utilitarios/componentes.css';

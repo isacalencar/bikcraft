@@ -53,10 +53,10 @@ background:var(--cor-5);
   
 
 }
-.perguntas-container dd {
+ .perguntas-container dd {
   display: none;
 }
-.perguntas-container dd.ativa {
+ .perguntas-container dd.ativa {
   display: block;
 }
 
